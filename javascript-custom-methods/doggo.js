@@ -9,5 +9,3 @@ var doggo = {
   }
 };
 
-console.log(doggo.bork());
-console.log(doggo.lick());
