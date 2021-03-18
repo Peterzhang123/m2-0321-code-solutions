@@ -8,7 +8,6 @@ var Account = function(number,holder) {
 
 Account.prototype.deposit = function (amount) {
   if(amount > 0){
-    this.transactions.push(amount);
     return true;
   } else{
     return false;
@@ -17,7 +16,6 @@ Account.prototype.deposit = function (amount) {
 
 Account.prototype.withdraw = function (amount) {
   if(amount > 0){
-    this.transactions.push(-amount);
     return true;
   } else{
     return false;
@@ -26,6 +24,7 @@ Account.prototype.withdraw = function (amount) {
 
 Account.prototype.getBalance = function () {
   var total = 0;
+  console.log(this.transactions);
   if(this.transactions.length === 0){
     return 0;
   }else{

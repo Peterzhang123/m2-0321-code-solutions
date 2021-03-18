@@ -33,7 +33,6 @@ Bank.prototype.getAccount = function (number) {
 
 Bank.prototype.getTotalAssets = function () {
   var subTotal = 0;
-  var total = 0
   if(this.accounts.length === 0){
     return 0;
   }else{
