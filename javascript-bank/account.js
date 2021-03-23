@@ -44,3 +44,4 @@ Account.prototype.getBalance = function () {
   }
 }
 
+
