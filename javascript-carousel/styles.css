@@ -1,0 +1,47 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.mainDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftArrowDiv ,.rightArrowDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+
+.leftArrowDiv:hover{
+   background-color: pink;
+}
+
+.rightArrowDiv:hover{
+  background-color: pink;
+}
+
+.bottomDiv{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 600px;
+  height: 50px;
+}
+
+.imgs{
+  width: 500px;
+  height: 500px;
+  background-position: center;
+  background-size: cover;
+  margin: 30px 100px;
+}
+
+

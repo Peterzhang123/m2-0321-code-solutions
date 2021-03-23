@@ -5,7 +5,8 @@ function Stopwatch(startTimeInSeconds) {
 }
 
 Stopwatch.prototype.tick = function () {
-  this.elapsedSeconds++;
+  this.elapsedSeconds++
+  return this.elapsedSeconds;
 };
 
 Stopwatch.prototype.getTime = function () {
@@ -27,4 +28,5 @@ Stopwatch.prototype.getTime = function () {
 
 Stopwatch.prototype.reset = function () {
   this.elapsedSeconds = 0;
+  return this.elapsedSeconds;
 };
